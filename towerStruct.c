@@ -66,7 +66,7 @@ int moveDisk(int diskNb, Tower* pTower, int source, int dest){
     }
     return -1;
 }
-
+//Ajout d'un comentaire
 int algoHanoi(int diskNb, Tower* pTower, int source, int dest, int aux, int instance){
     printf("Init Algo %d disk %d from %d to %d\n", instance, diskNb, source, dest);
     if (diskNb == 1){
